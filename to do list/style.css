@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Chewy&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Chewy&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Matemasie&family=Playwrite+CU:wght@100..400&family=Sevillana&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.gi{
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+}
+.cat{
+    position: absolute;
+    left: 50px;
+   z-index: 1;
+}
+.box{
+    width:80%;
+    height:100px;
+    position: relative;
+    left: 30px;
+    bottom: 644px;
+
+    height: 500px;
+    background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+border: 1px solid rgba(253, 224, 224, 0.76);
+overflow: auto;
+overflow-x: hidden;
+
+}
+.you{
+    font-family: "Edu VIC WA NT Beginner", system-ui;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+
+input{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight:light;
+    font-style: normal;
+    position: relative;
+    outline: none;
+    left: 20px;
+    font-size: 20px;
+   bottom: 10px;
+   width: 60%;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid black;
+}
+
+.ff{
+    font-family: "Edu VIC WA NT Beginner", system-ui;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal;
+    border-radius: 12px;
+    background-color: transparent;
+    color: black;
+    padding: 2px;
+    position: relative;
+   left: 20px;
+    font-size: large;
+    bottom: 3px;
+    width: 100px;
+    border: none;
+    
+}
+.ff:hover{
+    color: green;
+}
+svg{
+width: 200px;
+position: relative;
+bottom: 480px;
+left: 497px;
+z-index: -3;
+}
+li{
+    border-radius: 22px;
+    font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight:light;
+  font-style: normal;
+  position: relative;
+  left: 10%;
+
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+p{
+    background:url(abstract-colorful-low-poly-geometric-shapes-background-png.webp);
+    opacity: 90%;
+    border-radius: 22px;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    bottom: 490px;
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 380px;
+}
+h3{
+    position: relative;
+    bottom: 600px;
+    left: 50px;
+    font-size: 20px;
+    font-family: "Sevillana", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+i{
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke:1px rgb(255, 238, 0) ;
+}
+.form{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+}
+.dd{
+    position: relative;
+    bottom: 500px;
+    left: 100px;
+    cursor: n;
+}
